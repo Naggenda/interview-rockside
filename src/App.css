@@ -1,0 +1,14 @@
+.page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.css-w8dmq8 {
+  width: 55% !important;
+  box-shadow: 0 0 10px;
+  height: 100vh;
+}
+.preview{
+  width: 40%;
+  /* box-shadow: 0 0 10px 0; */
+}
