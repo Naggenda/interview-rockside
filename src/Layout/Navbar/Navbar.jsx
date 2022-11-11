@@ -8,6 +8,8 @@ import { MdOutlineQuestionAnswer } from "react-icons/md";
 import Questions from '../../Views/Questions';
 import Answers from '../../Views/Questions';
 import Preview from '../../Views/Preview/preview';
+import ModifyBtns from '../../Views/Preview/partials/previewButtons';
+
 
 
 export default function LabTabs() {
@@ -47,6 +49,7 @@ export default function LabTabs() {
       <div className="preview">
       <p>Preview</p>
       <Preview />
+      <ModifyBtns />
       </div>
     </div>
   );

@@ -11,7 +11,12 @@
 }
 .preview{
   width: 40%;
-  /* box-shadow: 0 0 10px 0; */
+  box-shadow: 0 0 3px 0px;
+}
+
+.preview-questions{
+  box-shadow: 0 0 10px 0;
+  padding: 10px;
 }
 
 table{
