@@ -4,9 +4,9 @@ import Form from "../Questions/partials/form";
 const preview = ({ data }) => {
   return (
     <div className="preview-questions">
-    <div className="title">
-    <h3>Candidate Personality Test</h3>
-    </div>
+      <div className="title">
+        <h3>Candidate Personality Test</h3>
+      </div>
       <table>
         <thead>
           <tr>
@@ -16,6 +16,8 @@ const preview = ({ data }) => {
             <th>Fair</th>
             <th>Poor</th>
           </tr>
+        </thead>
+        <tbody>
           <tr>
             <td>Engilish Level</td>
             <td>
@@ -31,7 +33,7 @@ const preview = ({ data }) => {
               <input type="radio" />
             </td>
           </tr>
-        </thead>
+        </tbody>
       </table>
     </div>
   );

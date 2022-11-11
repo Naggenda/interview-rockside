@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+#root{
+  margin: 10px;
+  border: 1px solid;
+}
+
 /* button components */
 
 .btn{
@@ -31,4 +36,15 @@ code {
 .btn-danger{
   color: white;
   background: red;
+}
+
+.form-group{
+  display: block;
+  margin: 15px 0;
+}
+.form-control{
+  width: -webkit-fill-available;
+  margin: 10px 0;
+  padding: 5px;
+  outline: none;
 }

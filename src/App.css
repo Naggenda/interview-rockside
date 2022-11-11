@@ -5,7 +5,7 @@
 
 .css-w8dmq8 {
   width: 55% !important;
-  box-shadow: 0 0 10px;
+  box-shadow: 0 0 3px;
   height: 100vh;
   line-height: 0px !important;
 }
@@ -15,7 +15,7 @@
 }
 
 .preview-questions{
-  box-shadow: 0 0 10px 0;
+  box-shadow: 0 0 7px 0;
   padding: 10px;
 }
 
