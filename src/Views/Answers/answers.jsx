@@ -1,12 +1,12 @@
 import React from "react";
-import InputForm from "./partials/form";
+import InputForm from "./partials/Ansform";
 // import NotListedLocationIcon from '@mui/icons-material/NotListedLocation';
 
 const questions = () => {
   return (
     <div>
       <div className="title">
-        <h4>Questions</h4>
+        <h4>Answers</h4>
         <InputForm />
       </div>
     </div>

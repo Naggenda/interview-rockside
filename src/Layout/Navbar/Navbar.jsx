@@ -5,7 +5,9 @@ import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import { MdOutlineQuestionAnswer } from "react-icons/md";
-import Questions from '../../Views/Questions'
+import Questions from '../../Views/Questions';
+import Answers from '../../Views/Questions';
+import Preview from '../../Views/Preview/preview';
 
 
 export default function LabTabs() {
@@ -30,8 +32,11 @@ export default function LabTabs() {
               <Tab label="Layout" value="7" />
             </TabList>
           </Box>
-          <TabPanel value="1">Item One</TabPanel>
-          <TabPanel value="2"><Questions /></TabPanel>
+          <TabPanel value="1">great</TabPanel>
+          <TabPanel value="2">
+          <Questions />
+          <Answers />
+          </TabPanel>
           <TabPanel value="3">Item Three</TabPanel>
           <TabPanel value="4">jod</TabPanel>
           <TabPanel value="5">76</TabPanel>
@@ -41,6 +46,7 @@ export default function LabTabs() {
       </Box>
       <div className="preview">
       <p>Preview</p>
+      <Preview />
       </div>
     </div>
   );

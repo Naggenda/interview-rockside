@@ -7,8 +7,32 @@
   width: 55% !important;
   box-shadow: 0 0 10px;
   height: 100vh;
+  line-height: 0px !important;
 }
 .preview{
   width: 40%;
   /* box-shadow: 0 0 10px 0; */
+}
+
+table{
+  width: -webkit-fill-available;
+}
+
+.tabledata{
+  border: 1px solid gray;
+}
+
+th{
+  border: 1px solid gray; 
+}
+
+.form-data{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.formdata{
+  border: 1px solid;
+    padding: 10px;
 }
