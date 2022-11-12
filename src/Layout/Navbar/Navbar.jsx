@@ -11,6 +11,7 @@ import Preview from "../../Views/Preview/preview";
 import ModifyBtns from "../../Views/Preview/partials/previewButtons";
 import DisplayForm from "../../Views/Display";
 
+
 export default function LabTabs() {
   const [value, setValue] = React.useState("1");
 
@@ -39,7 +40,7 @@ export default function LabTabs() {
             <Answers />
           </TabPanel>
           <TabPanel value="3">Item Three</TabPanel>
-          <TabPanel value="4">jod</TabPanel>
+          <TabPanel value="4">Formal</TabPanel>
           <TabPanel value="5">76</TabPanel>
           <TabPanel value="6">888</TabPanel>
           <TabPanel value="7">jiji</TabPanel>

@@ -32,7 +32,7 @@ function StudentForm(props) {
       <label>Name</label>
       <input type="text" value={name} onChange={changeName} />
       <label>City</label>
-      <input type="text" value={city} onChange={changeCity} />
+      <input type="text" value={name} />
       <button onClick={transferValue}>Add Another</button>
     </div>
   );

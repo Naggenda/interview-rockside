@@ -49,6 +49,7 @@ function AnsForm() {
       </form>
       <hr />
       <button onClick={addFields}>Add Another</button>
+      <button onClick={submit}>Submit</button>
     </div>
   );
 }
