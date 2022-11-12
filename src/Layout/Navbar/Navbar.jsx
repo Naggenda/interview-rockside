@@ -5,11 +5,11 @@ import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import { MdOutlineQuestionAnswer } from "react-icons/md";
-import Questions from '../../Views/Questions';
-import Answers from '../../Views/Questions';
-import Preview from '../../Views/Preview/preview';
-import ModifyBtns from '../../Views/Preview/partials/previewButtons';
-
+import Questions from "../../Views/Questions";
+import Answers from "../../Views/Questions";
+import Preview from "../../Views/Preview/preview";
+import ModifyBtns from "../../Views/Preview/partials/previewButtons";
+import DisplayForm from "../../Views/Display";
 
 
 export default function LabTabs() {
@@ -34,22 +34,22 @@ export default function LabTabs() {
               <Tab label="Layout" value="7" />
             </TabList>
           </Box>
-          <TabPanel value="1">great</TabPanel>
+          <TabPanel value="1"><DisplayForm /></TabPanel>
           <TabPanel value="2">
-          <Questions />
-          <Answers />
+            <Questions />
+            <Answers />
           </TabPanel>
           <TabPanel value="3">Item Three</TabPanel>
-          <TabPanel value="4">jod</TabPanel>
+          <TabPanel value="4">Formal</TabPanel>
           <TabPanel value="5">76</TabPanel>
           <TabPanel value="6">888</TabPanel>
           <TabPanel value="7">jiji</TabPanel>
         </TabContext>
       </Box>
       <div className="preview">
-      <p>Preview</p>
-      <Preview />
-      <ModifyBtns />
+        <p>Preview</p>
+        <Preview />
+        <ModifyBtns />
       </div>
     </div>
   );

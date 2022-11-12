@@ -35,7 +35,6 @@ function TableData() {
         </thead>
         <tbody>{tableRows}</tbody>
       </table>
-      <StudentForm func={addRows} />
     </div>
   );
 }
