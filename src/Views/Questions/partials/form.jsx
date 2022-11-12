@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Preview from "../../Preview/preview";
 
 function Form() {
   const [formFields, setFormFields] = useState([{ question: "", age: "" }]);
@@ -23,8 +24,13 @@ function Form() {
     setFormFields([...formFields, object]);
   };
 
+  const tableRowdata = formFields.map(form => {
+    return <tr>{form.name}</tr>;
+  });
+
   return (
     <div className="formdata">
+    <Preview info={tableRowdata} />
       <form onSubmit={submit}>
         {formFields.map((form, index) => {
           return (

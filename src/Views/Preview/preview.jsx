@@ -1,36 +1,25 @@
-import React, { useState } from "react";
-import Form from "../Questions/partials/form";
+// import React, { useState } from "react";
+// import Form from "../Questions/partials/form";
+// import Answers from "../Answers/partials/Ansform";
 
-const preview = ({ data }) => {
+const preview = props => {
   return (
     <div className="preview-questions">
       <div className="title">
         <h3>Candidate Personality Test</h3>
       </div>
-      <table>
+      <table className="table table-stripped">
         <thead>
           <tr>
             <th></th>
-            <th>Excelent</th>
-            <th>Good</th>
-            <th>Fair</th>
-            <th>Poor</th>
+            {props.data}
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Engilish Level</td>
+            {props.info}
             <td>
-              <input type="radio" />
-            </td>
-            <td>
-              <input type="radio" />
-            </td>
-            <td>
-              <input type="radio" />
-            </td>
-            <td>
-              <input type="radio" />
+              <input type="radio" name="select" id="" />
             </td>
           </tr>
         </tbody>
