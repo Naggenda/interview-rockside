@@ -10,7 +10,10 @@ const Dislay = () => {
         </div>
         <div className="form-group">
           <label htmlFor="position">Label Position</label>
-          <input type="text" className="form-control" name="position" />
+          <select className="form-control">
+                  <option>Bottom</option>
+                  <option>Top</option>
+               </select>
         </div>
         <div className="form-group">
           <label htmlFor="description">Description</label>
