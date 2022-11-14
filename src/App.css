@@ -27,8 +27,9 @@ table{
   border: 1px solid gray;
 }
 
-th{
-  border: 1px solid gray; 
+th, td, tr{
+  border: 1px solid gray;
+  padding: 10px 0; 
 }
 
 .form-data{
@@ -40,4 +41,12 @@ th{
 .formdata{
   border: 1px solid;
     padding: 10px;
+}
+
+.title .formdata .preview-questions{
+  position: absolute;
+    top: 95px;
+    right: 12px;
+    width: 37.5%;
+    background: white;
 }
