@@ -2,7 +2,7 @@
 // import Form from "../Questions/partials/form";
 // import Answers from "../Answers/partials/Ansform";
 
-const preview = props => {
+const preview = (props) => {
   return (
     <div className="preview-questions">
       <div className="title">

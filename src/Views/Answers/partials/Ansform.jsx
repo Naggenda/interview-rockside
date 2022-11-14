@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Preview from "../../Preview/preview";
+import Preview from '../../Preview/preview';
 
 function AnsForm() {
   const [formFields, setFormFields] = useState([{ question: "", age: "" }]);
@@ -24,13 +24,17 @@ function AnsForm() {
     setFormFields([...formFields, object]);
   };
 
-  const tableRows = formFields.map(form => {
-    return <th>{form.name}</th>;
+  const tableRows = formFields.map((form) => {
+    return (
+      <th>
+        {form.name}
+      </th>
+    );
   });
 
   return (
     <div className="formdata">
-      <Preview data={tableRows} />
+    <Preview data={tableRows}/>
       <form onSubmit={submit}>
         {formFields.map((form, index) => {
           return (
@@ -48,6 +52,7 @@ function AnsForm() {
               />
               <input type="text" />
               <p>icon</p>
+
             </div>
           );
         })}
